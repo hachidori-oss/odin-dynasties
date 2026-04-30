@@ -1,0 +1,84 @@
+/* style.css */
+
+/* Global Styles */
+body { 
+    font-family: sans-serif; 
+    line-height: 1.6; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+header { 
+    border-bottom: 2px solid #333; 
+    margin-bottom: 20px; 
+}
+
+footer { 
+    margin-top: 50px; 
+    font-size: 0.9em; 
+    color: #777; 
+    text-align: center; 
+}
+
+time { 
+    font-weight: bold; 
+    color: #666; 
+}
+
+/* Homepage Specific Styles */
+.dynasty-card { 
+    margin-bottom: 30px; 
+    padding: 15px; 
+    border-left: 5px solid #c0392b; 
+    background: #f9f9f9; 
+}
+
+.dynasty-card a { 
+    display: inline-block; 
+    margin-top: 10px; 
+    color: #c0392b; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+.dynasty-card a:hover { 
+    text-decoration: underline; 
+}
+
+/* Han Dynasty Page Specific Styles */
+section { 
+    margin-bottom: 40px; 
+}
+
+.han-header { 
+    border-bottom: 2px solid #c0392b; 
+}
+
+h2 { 
+    color: #c0392b; 
+    border-bottom: 1px solid #ddd; 
+    padding-bottom: 5px; 
+}
+
+.media-item { 
+    background: #f4f4f4; 
+    padding: 15px; 
+    margin-bottom: 15px; 
+    border-radius: 5px; 
+}
+
+.media-tag { 
+    font-size: 0.8em; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    color: #666; 
+}
+
+.back-link { 
+    display: inline-block; 
+    margin-bottom: 20px; 
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+}
